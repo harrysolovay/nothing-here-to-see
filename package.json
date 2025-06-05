@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "mix": "bunx repomix .",
+    "check": "tsc -b"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.13",
+    "@types/node": "^22.15.19",
+    "dprint": "^0.50.0",
+    "typescript": "^5.8.3"
+  }
+}
