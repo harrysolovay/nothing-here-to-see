@@ -3,11 +3,9 @@
   "type": "module",
   "workspaces": ["packages/*"],
   "scripts": {
-    "mix": "bunx repomix .",
     "check": "tsc -b"
   },
   "devDependencies": {
-    "@effect/language-service": "^0.20.1",
     "@types/bun": "^1.2.13",
     "@types/node": "^22.15.19",
     "dprint": "^0.50.0",
