@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
     "composite": true,
     "declaration": true,
     "esModuleInterop": true,
@@ -14,14 +15,16 @@
     "noErrorTruncation": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
-    "noImplicitThis": true,
     "noImplicitReturns": true,
+    "noImplicitThis": true,
     "noUncheckedIndexedAccess": true,
     "noUncheckedSideEffectImports": true,
     "noUnusedParameters": true,
+    "plugins": [
+      { "name": "@effect/language-service" }
+    ],
     "resolveJsonModule": true,
     "rewriteRelativeImportExtensions": true,
-    "allowImportingTsExtensions": true,
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
