@@ -20,9 +20,6 @@
     "noUncheckedIndexedAccess": true,
     "noUncheckedSideEffectImports": true,
     "noUnusedParameters": true,
-    "plugins": [
-      { "name": "@effect/language-service" }
-    ],
     "resolveJsonModule": true,
     "rewriteRelativeImportExtensions": true,
     "skipLibCheck": true,
