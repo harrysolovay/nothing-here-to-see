@@ -1,5 +1,6 @@
-import { AiLanguageModel } from "@effect/ai"
-import { Console, Effect } from "effect"
+import * as AiLanguageModel from "@effect/ai/AiLanguageModel"
+import * as Console from "effect/Console"
+import * as Effect from "effect/Effect"
 
 export const root = Effect.gen(function*() {
   const model = yield* AiLanguageModel.AiLanguageModel

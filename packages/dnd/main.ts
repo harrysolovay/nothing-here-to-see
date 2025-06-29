@@ -1,6 +1,8 @@
 import { OpenAiClient, OpenAiLanguageModel } from "@effect/ai-openai"
 import { FetchHttpClient } from "@effect/platform"
-import { Config, Effect, Layer } from "effect"
+import * as Config from "effect/Config"
+import * as Effect from "effect/Effect"
+import * as Layer from "effect/Layer"
 import { root } from "./root"
 
 await root.pipe(

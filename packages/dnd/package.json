@@ -6,7 +6,6 @@
     "@effect/ai": "^0.18.0",
     "@effect/ai-openai": "^0.21.0",
     "@effect/platform-bun": "^0.67.0",
-    "@effect/platform-node": "^0.83.0",
     "effect": "^3.16.0"
   }
 }

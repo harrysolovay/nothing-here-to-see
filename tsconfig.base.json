@@ -20,6 +20,21 @@
     "noUncheckedIndexedAccess": true,
     "noUncheckedSideEffectImports": true,
     "noUnusedParameters": true,
+    "plugins": [
+      {
+        "name": "@effect/language-service",
+        "transform": "@effect/language-service/transform",
+        "namespaceImportPackages": [
+          "@effect/ai",
+          "@effect/ai-openai",
+          "@effect/platform-bun",
+          "effect"
+        ],
+        "diagnosticSeverity": {
+          "importFromBarrel": "error"
+        }
+      }
+    ],
     "resolveJsonModule": true,
     "rewriteRelativeImportExtensions": true,
     "skipLibCheck": true,
